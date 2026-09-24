@@ -5,7 +5,7 @@ All paths are relative to `https://app.labtested.co/api/v1/labs`. Every endpoint
 | Method | Path | Scope | Result |
 | --- | --- | --- | --- |
 | GET | `/connections` | read | Active brand connections: connection `id`, `brand_id`, `organizations.name` |
-| GET | `/products?brand_id={uuid}` | read | Active/non-archived brand catalog entries: `id`, `name`, `public_id`, `gtin` |
+| GET | `/products?brand_id={uuid}` | read | Non-archived brand catalog entries: `id`, `name`, `public_id`, `gtin` |
 | GET | `/products/{id}/variants` | read | Product variants: `id`, `name`, `code`, `is_default` |
 | GET | `/products/{id}/batches` | read | Non-archived lots: `id`, `variant_id`, `lot_number` |
 | POST | `/uploads?brand_id={uuid}` | submit | Upload raw PDF bytes; returns upload UUID, expiry, SHA-256 and size |
