@@ -2,7 +2,7 @@
 
 Deliver original laboratory COAs and structured results directly into connected brands’ LabTested dashboards.
 
-**Release status:** v1 release candidate. Production activation is being verified. Do not send production reports until LabTested confirms your integration is enabled.
+**Release status:** v1 is deployed and available for pilot onboarding. Arrange a pilot with LabTested before sending routine production reports; the first end-to-end lab integration is still pending.
 
 The API delivers reports for brand review. It does **not** publish results automatically to storefronts or public product pages.
 
