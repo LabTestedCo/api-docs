@@ -1,0 +1,26 @@
+{
+  "brand_id": "00000000-0000-4000-8000-000000000001",
+  "product_id": "00000000-0000-4000-8000-000000000002",
+  "variant_id": "00000000-0000-4000-8000-000000000003",
+  "batch_id": "00000000-0000-4000-8000-000000000004",
+  "upload_id": "00000000-0000-4000-8000-000000000005",
+  "lot_number": "LOT-1",
+  "external_report_id": "COA-1",
+  "revision": 1,
+  "test_type": "Heavy metals",
+  "test_date": "2026-09-01",
+  "report_date": "2026-09-02",
+  "approval_signer_name": "Alex Scientist",
+  "approval_confirmed": true,
+  "results": [
+    {
+      "category": "Heavy metals",
+      "analyte_name": "Lead",
+      "result_value": "< 0.010",
+      "unit": "ppm",
+      "threshold": "<= 0.5",
+      "loq": "0.010 ppm",
+      "status": "Below limit"
+    }
+  ]
+}
